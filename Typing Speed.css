@@ -1,0 +1,64 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 235, 215);
+}
+
+.guessWordsButton {
+  height: 6%;
+  top: 12%;
+  left:0%;
+  color: rgb(77, 77, 199);
+  position: relative;
+}
+
+.userInput {
+  height: 16%;
+  width: 30%;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.randomWords {
+  color: black;
+  position: absolute;
+  bottom: 60%;
+}
+
+.rightWords {
+  color: blue;
+  position: absolute;
+  bottom: 75%;
+  border: thick double #32a1ce;
+  border-width: 5px;
+}
+
+.green-letter {
+  color: green;
+}
+
+.red-letter {
+  color: red;
+}
+
+.timer {
+  color: black;
+  position: relative;
+  bottom: 17%;
+  right: 0%;
+  border: solid;
+  border-color: aqua;
+  border-radius: 10px;
+  border-width: 3px;
+  display: none;
+}
