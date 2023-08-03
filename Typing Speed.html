@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <title>Typing Speed</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <button type ="button" id="revealWords" class="guessWordsButton" onclick="startTheGame(), timeCounter()" >Reveal Words</button>
+  <input type ="text" id="userInput" class="userInput" placeholder="" oninput="checkLetters()" onkeypress="handleKeyPress(event)" >
+  <div id="messagesContainer" type="message" class="randomWords"></div>
+  <div id="rightWords" type="message" class="rightWords"></div>
+  <div id="timer" type="message" class="timer"></div>
+  <script src="index.js"></script>
+</body>
+</html>
